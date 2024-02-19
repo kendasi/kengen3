@@ -1,4 +1,4 @@
-# kengen3
+# KenGen-3
 KenGen, plus mathematical ability &amp; internet access, based on Llama 2.
 
 ## Concept
@@ -15,3 +15,6 @@ A few things need to be done still:
 KenGen uses the smallest Llama-2 Chat-finetuned model, with 7 billion parameters. While it's small, with the added functionality added above, it still can produce very high quality results, even with a small model, allowing for cheaper and faster computation. The added functionality uses a custom wrapper developer by Kendasi. At the moment, it's still using OpenAI's API for the base model, but that will be switched out for Llama once the servers have been set up, as it costs money to run.
 
 Regarding the internet, KenGen uses the Brave API to access the internet and collect data from the internet. KenGen has been finetuned to understand special tags such as <kgmath> and <kgweb>, used like XML tags, which is then simply formatted to be the answer calculated (kgmath) or found on the internet (kgweb) from the query that the model entered within the tags.
+
+## Setup
+KenGen will be installed onto our VPS servers, after the hosting provider fixes some bugs. A REST API will be then published, which seperate docs will be written for. Users will be able to purchase credits through [the KenGen API website.](https://api.kendasi.com).
