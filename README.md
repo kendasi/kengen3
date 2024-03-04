@@ -7,9 +7,10 @@ Many Large Language Models face issues with solving mathematical problems, often
 ## To do
 A few things need to be done still:
 
-* Move onto new servers
-* Switch to LlaMA-2 Chat 7B model
+* Move onto new servers [DONE]
+* Switch to LlaMA-2 Chat 7B model [DONE]
 * Set up API
+* Incorporate the internet and math ability into the new web servers with Llama-2
 
 ## The "how?"
 KenGen uses the smallest Llama-2 Chat-finetuned model, with 7 billion parameters. While it's small, with the added functionality added above, it still can produce very high quality results, even with a small model, allowing for cheaper and faster computation. The added functionality uses a custom wrapper developer by Kendasi. At the moment, it's still using OpenAI's API for the base model, but that will be switched out for Llama once the servers have been set up, as it costs money to run.
